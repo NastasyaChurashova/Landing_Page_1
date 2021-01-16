@@ -1,3 +1,13 @@
-background {
+
+.bg_card {
+    background: url(bg.png) no repeat;
     color: #ffffff;
+    max-width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 726vh;
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 12px;
 }
+
