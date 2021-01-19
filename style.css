@@ -1,13 +1,92 @@
 
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E5E5;
+  }
+
 .bg_card {
-    background: url(bg.png) no repeat;
-    color: #ffffff;
-    max-width: 1440px;
+    display: block;
+    align-self: center;
+    background: url(bg.png);
+    min-width: 1440px;
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 726vh;
-    margin: 0;
+    min-height: 726px;
     font-family: "Roboto";
     font-size: 12px;
+    padding: 15px;
 }
+
+.wrapper {
+    display: grid;
+  }
+  
+header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 24px;
+  }
+  
+  .top-menu {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .Tim {
+      font-size: 18px;
+  }
+  
+  #download {
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+  
+  header {
+    max-width: 1139px;
+    padding: 23px 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .dropdown {
+      display: none;
+  }
+  
+  .white_block {
+    display: grid;
+    flex-direction: column;
+    position: relative;
+    align-self: center;
+    top: -87px;
+    min-width: 1380px;
+    min-height: 2045px;
+    background: #fff;
+    border-radius: 3px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 53.2px;
+    margin-left: 78px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 36.4px;
+    font-weight: 400;
+    line-height: 16.41px;
+    margin: 96px auto;
+
+  }
+  h3 {
+
+  }
+
+  .features a {
+    display: grid;
+    flex-direction: row;
+  }
 
