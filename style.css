@@ -90,3 +90,8 @@ header a {
     flex-direction: row;
   }
 
+  button {
+    background: #9C27B0;
+    width: 148px;
+    height: 41px;
+  }

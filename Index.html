@@ -15,16 +15,10 @@
           <header>
           <a href="#logo" class="Tim">Creative Tim</a>
           <a href="#" class="dropdown">
-            <svg class="dropdown"
-              width="22" 
-              height="14" 
-              viewBox="0 0 22 14" 
-              fill="none" 
-              xmlns="http://www.w3.org/2000/svg">
-              <rect width="22" height="2" fill="white"/>
-              <rect y="6" width="22" height="2" fill="white"/>
-              <rect y="12" width="22" height="2" fill="white"/>
+            <svg>
+              <use xlink:href="vector-icons.svg#dropdown"></use>
             </svg>
+
           </a>
             <nav class="top-menu">
               <a href="#icons">COMPONENTS</a>
@@ -141,11 +135,11 @@
             <div class="Sign-up_form">
                 <h2>Work with us</h2> 
             </div>
-        <input 
+        <input
           type="submit" 
           class="button" 
           value="SEND MESSAGE"
-      />                       
+        />                       
       </div>
       </main>
     <footer>
@@ -159,7 +153,7 @@
     </footer>
 <script>
   document
-  querySelector ('.dropdown')
+  querySelector('.dropdown')
   .addEventListener("click", function(){
   document.querySelector (".top-menu").classList.toggle('open');
   });
