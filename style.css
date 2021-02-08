@@ -2,6 +2,7 @@ body {
   color: #ccc;
   font-family: "Roboto";
   font-size: 12px;
+  margin-top:0;
 }
 
 .wrapper {
@@ -26,7 +27,7 @@ body {
 header {
   max-width: 1139px;
   max-height: 62px;
-  padding: 23px 24px;
+  padding: 65px 24px 23px 24px;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -113,8 +114,7 @@ a .top-menu {
   flex-direction: column;
   align-self: center;
   top: -87px;
-  margin: auto 0;
-  max-width: 1380px;
+  width: 1380px;
   background: #fff;
   border-radius: 3px;
 }
@@ -310,6 +310,7 @@ footer p {
   header {
     background-color: #000000;
     opacity: 40%;
+    padding: 23px 24px;
   }
 
   .bg_card {
@@ -356,19 +357,17 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 870px) {
   .dropdown {
     display: initial;
   }
 
   .wrapper {
     position: relative;
-    min-height: 4442px;
   }
 
-  .bg_card {
-    min-height: 664px;
-    max-width: 425px;
+  header {
+    padding: 23px 24px;
   }
 
   nav header {
@@ -401,7 +400,7 @@ footer p {
     align-items: center;
     min-width: 400px;
     height: 62px;
-    margin-top: -80px;
+    margin-top: -140px;
   }
 
   .bottom-menu {
@@ -410,7 +409,12 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 525px) {
+  .bg_card {
+    min-height: 664px;
+    max-width: 425px;
+  }
+
   footer {
     display: flex;
     flex-direction: column;

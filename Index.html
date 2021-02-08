@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
-      <main class="two_blocks">
+      <div class="wrapper">
         <div class="bg_card">
-          <header>
+          <header> <!-- HEADER-->
           <a href="#logo" class="Tim">Creative Tim</a>
           <a href="#" class="dropdown">
             <svg
@@ -46,7 +45,7 @@
                   width="19" 
                   height="15" 
                   viewBox="0 0 19 15" 
-                  fill="none" 
+                  fill="white"
                 >
                   <use xlink:href="icons.svg#twitter"></use>
                 </svg>
@@ -56,7 +55,7 @@
                   width="18" 
                   height="18" 
                   viewBox="0 0 18 18" 
-                  fill="none" 
+                  fill="white"
                 >
                 <use xlink:href="icons.svg#facebook"></use>
                 </svg>               
@@ -73,14 +72,14 @@
               </a>
             </nav>
           </header>
-          <div class="title">
-          <h1>Write the  best title for<br> your page</h1>
+ <!-- END HEADER -->
+          <div class="container">
+          <h1>Write the  best title for your page</h1>
           <p>Every landing page needs a small description after the big bold title, 
             that's why we added this text here. Add here all the information that 
             can make you or your product create the first impression.</p>
-          </div>
+          <div class="video">
           <a href="#video">
-            <div class="video">
             <svg
               class="play"
               width="15" 
@@ -91,46 +90,199 @@
             <use xlink:href="icons.svg#play"></use>          
           </svg>
           <span> WATCH VIDEO </span>
+        </a>
           </div>
-          </a>
         </div>
-        <div class="main_block">
-            <div class="features">
-              <h2>Let's talk product</h2>
-               <a href="#"></a><img src="feature_1.png" alt="feature_1">           
-                <a href="#"></a><img src="feature_2.png" alt="feature_2">   
-                <a href="#"></a><img src="feature_3.png" alt="feature_3">  
-              </div>
-            <div class="team">
-              <h2>Here is our team</h2>
-            </div>
-            <div class="Sign-up_form">
-                <h2>Work with us</h2> 
-            </div>
-        <div class="submit"><input
-          type="submit" 
-          class="button" 
-          value="SEND MESSAGE"
-        />
-        </div>                       
       </div>
-      </main>
+         <!-- MAIN BLOCK -->
+        <div class="main_block">
+          <div class="product">
+          <h2>Let's talk product</h2>
+          <p>This is the paragraph where you can write more details about your product. Keep you user 
+            engaged by providing meaningful information. Remember that by this time, the user is curious, <br>
+            otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</p>
+          </div>
+<!-- FEATURES-->         
+            <div class="features">
+              <div>
+               <a href="#"></a><img src="feature_1.png" alt="feature_1">
+               <h3>First Feature</h3>
+               <p>Divide details about your product or agency work into 
+                parts. Write a few lines about each one. A paragraph 
+                describing a feature will be enough.</p>
+              </div>
+              <div>           
+                <a href="#"></a><img src="feature_2.png" alt="feature_2">
+                <h3>Second Feature</h3>
+                <p>Divide details about your product or agency work into 
+                  parts. Write a few lines about each one. A paragraph 
+                  describing a feature will be enough.</p>
+              </div>
+              <div>   
+                <a href="#"></a><img src="feature_3.png" alt="feature_3">
+                <h3>Third Feature</h3>
+                <p>Divide details about your product or agency work into 
+                  parts. Write a few lines about each one. A paragraph 
+                  describing a feature will be enough.</p>
+              </div>
+            </div>
+<!-- TEAM-->
+              <h2>Here is our team</h2>
+            <div class="team">
+              <div class="gigi">
+                <a href="#"></a><img src="ava1.png" alt="Gigi Hadid photo">
+                <h3>Gigi Hadid</h3>
+                <span>Model</span>
+                <p>You can write here details about one of your team 
+                  members. You can give more details about what they do. 
+                  Feel free to add some links for people to be able to follow 
+                  them outside the site.
+                </p>
+              <span class="social_menu">
+                <a href="#twitter">
+                  <svg >
+                    <use xlink:href="icons.svg#twitter"></use>
+                  </svg>
+                </a>
+                <a href="#instagram">
+                  <svg>
+                    <use xlink:href="icons.svg#instagram"></use>                
+                  </svg>
+                </a>
+                <a href="#facebook">
+                  <svg>
+                  <use xlink:href="icons.svg#facebook"></use>
+                  </svg>               
+                </a>
+              </span>
+              </div>
+
+              <div>         
+                <a href="#"></a><img src="ava2.png" alt="Christian photo">
+                <h3>Christian Louboutin</h3>
+                <span>Designer</span>
+                <p>You can write here details about one of your team 
+                  members. You can give more details about what they do. 
+                  Feel free to add some links for people to be able to follow 
+                  them outside the site.
+                </p>
+                <span class="social_menu">
+                  <a href="#twitter">
+                    <svg
+                    >
+                      <use xlink:href="icons.svg#twitter"></use>
+                    </svg>
+                  </a>
+                  <a href="#linkedin">
+                    <svg
+                      width="16" 
+                      height="15" 
+                      viewBox="0 0 16 15"
+                    >
+                      <use xlink:href="icons.svg#linkedin"></use>                
+                    </svg>
+                  </a>
+                </span>
+              </div>
+              <div>  
+                <a href="#"></a><img src="ava3.png" alt="Kendall Jenner">
+                <h3>Kendall Jenner</h3>
+                <span>Model</span>
+                <p>You can write here details about one of your team 
+                  members. You can give more details about what they do. 
+                  Feel free to add some links for people to be able to follow 
+                  them outside the site.
+                </p>
+                <span class="social_menu">
+                  <a href="#google">
+                    <svg     
+                      width="24" 
+                      height="21" 
+                      viewBox="0 0 24 21" 
+                      fill="none"                
+                    >
+                    <use xlink:href="icons.svg#google"></use>
+                    </svg>               
+                  </a>
+                  <a href="#youtube">
+                    <svg    
+                      width="18" 
+                      height="18" 
+                      viewBox="0 0 18 18" 
+                      fill="none"
+                    >
+                      <use xlink:href="icons.svg#youtube"></use>
+                    </svg>
+                  </a>
+                  <a href="#instagram">
+                    <svg>
+                      <use xlink:href="icons.svg#instagram"></use>                
+                    </svg>
+                  </a>
+
+                </span>
+              </div>
+            </div>
+            <div class="sign-up_form">
+                <h2>Work with us</h2> 
+                <p>Divide details about your product or agency work into parts. Write a few lines about each one 
+                  and contact us about any further collaboration. We will responde get back to you in a couple of 
+                  hours.</p>
+                 <input 
+                    type="text"
+                    class="name"
+                    placeholder="Your Name"
+                    value=""
+                    onkeypress="this.setAttribute ('value', this.value)"
+                  />
+                <input 
+                  type="text"
+                  class="email"
+                  placeholder="Your Email"
+                  value=""
+                  onkeypress="this.setAttribute ('value', this.value)"
+                />
+                <input 
+                    type="text"
+                    class="message"
+                    placeholder="Your Message"
+                    value=""
+                    onkeypress="this.setAttribute ('value', this.value)"
+                  />
+            </div>
+            <div class="submit">
+              <input
+                type="submit" 
+                class="button" 
+                value="SEND MESSAGE"
+              />
+            </div>                       
+  </div>
+
     <footer>
-      <nav class="bottom-menu">
+       <nav class="bottom-menu">
         <a href="#CREATIVE_TIM">CREATIVE TIM</a>
         <a href="#ABOUT_US">ABOUT US</a>
         <a href="#BLOG">BLOG</a>
         <a href="#LICENSES">LICENSES</a>
-      </nav>
-      <h3>© 2016, made with <font size="4px"> ♥ </font> by Creative Tim</h3>       
+        </nav>
+        <p>© 2016, made with <font size="4px" color="#000000"> ♥ </font> by Creative Tim</p>
     </footer>
-<script>
-  document
-  querySelector('.dropdown')
-  .addEventListener("click", function(){
-  document.querySelector (".top-menu").classList.toggle('open');
-  });
-</script>
-
+  </div>
 </body>
 </html>
+<script>
+  function showTab(i) {
+    document.querySelector('.gallery__tab--active').classList.remove('gallery__tab--active');
+    this[0].preventDefault();
+    this[1].classList.add("gallery__tab--active");
+
+    document.querySelector('.gallery__photos--show').classList.remove('gallery__photos--show');
+    document.querySelectorAll('.gallery__photos')[i].classList.add("gallery__photos--show");
+  }
+
+  document.querySelector('.dropdown')
+  .addEventListener("click", function(){
+  document.querySelector (".top-menu").classList.toggle('open');
+  })
+</script>
