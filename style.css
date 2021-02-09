@@ -2,7 +2,7 @@ body {
   color: #ccc;
   font-family: "Roboto";
   font-size: 12px;
-  margin-top:0;
+  margin: 0;
 }
 
 .wrapper {
@@ -41,7 +41,6 @@ header a {
 
 .top-menu {
   display: inline-block;
-  vertical-align: middle;
 }
 
 .Tim {
@@ -111,7 +110,6 @@ a .top-menu {
   display: flex;
   box-sizing: border-box;
   position: relative;
-  flex-direction: column;
   align-self: center;
   top: -87px;
   width: 1380px;
@@ -257,6 +255,10 @@ input:hover {
   padding: 12px 18px;
 }
 
+.button :hover {
+  color: #000;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -298,7 +300,6 @@ footer p {
     flex-direction: column;
     min-height: 3481px;
     max-width: 748px;
-    padding: 0 auto;
   }
 
   .container {
@@ -370,24 +371,30 @@ footer p {
     padding: 23px 24px;
   }
 
-  nav header {
+  .top-menu {
     display: none;
     position: absolute;
-    background: #00000096;
-    top: 80px;
-    right: 10px;
+    background: #000000b2;
+    top: 60px;
+    right: 19px;
     flex-direction: column;
     z-index: 1;
     padding: 5px;
   }
 
   header a {
+    display: flex;
+    justify-content: center;
     margin: 5px;
   }
 
   .top {
     min-width: 425px;
     justify-content: space-between;
+  }
+
+  .dropdown: focus + nav {
+    display: flex;
   }
 
   .top-menu.open {
@@ -400,7 +407,6 @@ footer p {
     align-items: center;
     min-width: 400px;
     height: 62px;
-    margin-top: -140px;
   }
 
   .bottom-menu {
