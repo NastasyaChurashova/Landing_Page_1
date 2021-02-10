@@ -16,9 +16,8 @@ body {
 
 .bg_card {
   display: block;
-  width: 1440px;
+  max-width: 1440px;
   min-height: 726px;
-  align-self: center;
   background: url(bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,9 +106,9 @@ a .top-menu {
 }
 
 .main_block {
-  display: flex;
   box-sizing: border-box;
   position: relative;
+  flex-direction: column;
   align-self: center;
   top: -87px;
   width: 1380px;
@@ -292,13 +291,11 @@ footer p {
 
 @media only screen and (max-width: 1000px) {
   .wrapper {
-    min-height: 4135px;
-    min-width: 768px;
+    max-height: 4135px;
+    max-width: 768px;
   }
 
   .main_block {
-    flex-direction: column;
-    min-height: 3481px;
     max-width: 748px;
   }
 
@@ -316,7 +313,7 @@ footer p {
 
   .bg_card {
     min-height: 597px;
-    width: 768px;
+    max-width: 768px;
   }
 
   .product p {
@@ -330,9 +327,10 @@ footer p {
   .team {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin: auto;
-    row-gap: 40px;
+    row-gap: 10px;
   }
 
   .team div {
@@ -374,9 +372,9 @@ footer p {
   .top-menu {
     display: none;
     position: absolute;
-    background: #000000b2;
+    background: #00000096;
     top: 60px;
-    right: 19px;
+    right: 1px;
     flex-direction: column;
     z-index: 1;
     padding: 5px;
@@ -385,7 +383,6 @@ footer p {
   header a {
     display: flex;
     justify-content: center;
-    margin: 5px;
   }
 
   .top {
@@ -418,7 +415,14 @@ footer p {
 @media only screen and (max-width: 525px) {
   .bg_card {
     min-height: 664px;
-    max-width: 425px;
+    max-width: 500px;
+  }
+
+  .container p,
+  .product p,
+  .sign-up_form p {
+    max-width: 490px;
+    margin: 54px auto;
   }
 
   footer {
@@ -429,8 +433,7 @@ footer p {
     height: 62px;
   }
 
-  .bottom-menu {
-    align-items: flex-start;
-    align-self: flex-start;
+  .top-menu {
+    right: 14px;
   }
 }
